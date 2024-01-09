@@ -5,17 +5,17 @@ export default function HeaderFeaturedNav() {
   return (
     <Nav>
       <NavItem>
-        <Link href="/" passHref legacyBehavior>
+        <Link href="/dashboard" passHref legacyBehavior>
           <NavLink className="p-2">Dashboard</NavLink>
         </Link>
       </NavItem>
       <NavItem>
-        <Link href="#" passHref legacyBehavior>
-          <NavLink className="p-2">Users</NavLink>
+        <Link href="/dashboard/profile" passHref legacyBehavior>
+          <NavLink className="p-2">Profile</NavLink>
         </Link>
       </NavItem>
       <NavItem>
-        <Link href="#" passHref legacyBehavior>
+        <Link href="/dashboard/settings" passHref legacyBehavior>
           <NavLink className="p-2">Settings</NavLink>
         </Link>
       </NavItem>

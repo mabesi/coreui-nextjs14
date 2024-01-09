@@ -56,7 +56,7 @@ export default function Sidebar({ children }: { children: React.ReactNode }) {
           <use xlinkHref="/assets/brand/coreui.svg#signet" />
         </svg> */}
 
-        <img className='p-2' src="/assets/img/logo-green.png" width="75%" />
+        <img className='p-1' src="/logo.png" width="80%" />
 
       </div>
 
