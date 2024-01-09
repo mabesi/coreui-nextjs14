@@ -5,7 +5,8 @@ import Register from '@/app/(home)/register/register'
 
 export default function Page() {
   return (
-    <Row className="justify-content-center">
+    // <div className="bg-dark-subtle min-vh-100 d-flex flex-row dark:bg-transparent">
+    <Row className="justify-content-center align-items-center">
       <Col md={6}>
         <Card className="mb-4 rounded-0">
           <CardBody className="p-4">
@@ -16,5 +17,6 @@ export default function Page() {
         </Card>
       </Col>
     </Row>
+    // </div>
   )
 }

@@ -4,6 +4,7 @@ import LoginForm from '@/app/(home)/login/login'
 
 export default function Page() {
   return (
+    <div className="bg-dark-subtle min-vh-100 d-flex flex-row dark:bg-transparent">
     <Row className="justify-content-center align-items-center px-3">
       <Col lg={8}>
         <Row>
@@ -33,5 +34,6 @@ export default function Page() {
         </Row>
       </Col>
     </Row>
+    </div>
   )
 }

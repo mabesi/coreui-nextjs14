@@ -38,7 +38,7 @@ export default function SidebarNav() {
       <SidebarNavTitle>User</SidebarNavTitle>
       <SidebarNavItem icon={faAddressCard} href="/dashboard/profile">Profile</SidebarNavItem>
       <SidebarNavItem icon={faGear} href="/dashboard/settings">Settings</SidebarNavItem>
-      <SidebarNavItem icon={faRightFromBracket} href="/logout">Logout</SidebarNavItem>
+      <SidebarNavItem icon={faRightFromBracket} href="/">Logout</SidebarNavItem>
 
     </ul>
   )
